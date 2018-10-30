@@ -1,0 +1,21 @@
+﻿生成启动时间为 10/29/2018 6:17:03 PM。
+     1>项目“D:\test\testSolution\testSolution\testSolution.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\software\Visual Studio Ultimate 2013\VC\bin\x86_amd64\CL.exe /c /ID:\test\testpython35\include /Zi /nologo /W3 /WX- /sdl- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\testSolution.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt testSolution.cpp
+         testSolution.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(114): warning C4005: “ERROR”: 宏重定义
+                 d:\test\testsolution\testsolution\stdafx.h(16) : 参见“ERROR”的前一个定义
+     1>d:\test\testsolution\testsolution\errorcode.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>testSolution.cpp(33): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+       Link:
+         D:\software\Visual Studio Ultimate 2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\test\testSolution\x64\Debug\testSolution.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\test\testpython35\libs "D:\software\opencv-2.4.13\build\x64\vc12\lib\*d.lib" "D:\software\qt-5.7\lib\*.lib" "C:\Program Files (x86)\MVS\Development\Libraries\win64\MvCameraControl.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\test\testSolution\x64\Debug\testSolution.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\test\testSolution\x64\Debug\testSolution.lib" /MACHINE:X64 x64\Debug\http.obj
+         x64\Debug\utils.obj
+         x64\Debug\Solution.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\testSolution.obj
+         testSolution.vcxproj -> D:\test\testSolution\x64\Debug\testSolution.exe
+     1>已完成生成项目“D:\test\testSolution\testSolution\testSolution.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.94
